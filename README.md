@@ -1,152 +1,96 @@
-# Souparna Kundu — Personal Portfolio
+# Souparna Kundu Portfolio
 
-A production-quality personal portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Chart.js**. Features a modern dark glassmorphism aesthetic, smooth animations, live GitHub API integration, and full GitHub Pages compatibility.
+Personal portfolio website showcasing my academic journey, engineering projects, software development work, technical skills, achievements, and ongoing research interests.
 
----
+## About Me
 
-## 🚀 Quick Start
+I am an undergraduate student in Electronics & Communication Engineering at Jadavpur University with interests in:
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+* VLSI Design & Semiconductor Engineering
+* Digital Design & FPGA Development
+* Embedded Systems
+* Software Development
+* Signal Processing
+* AI-Assisted Application Development
 
-### Installation
+## Featured Projects
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Souparnoo/portfolio.git
-cd portfolio
+### Software Projects
 
-# 2. Install dependencies
-npm install
+* Expense Tracker App
+* Mergelet (PDF Utility)
+* ShuddhoGaan
+* Rakhi Website
+* SGP Calculator
+* Sudoku Solver
 
-# 3. Start development server
-npm run dev
-```
+### Electronics & VLSI Projects
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+* Automobile Dashboard Simulation (LabVIEW)
+* Digital Logic Design using Verilog
+* HDLBits Verilog Practice
+* Digital Circuit Simulations
+* VLSI Memory Design (Ongoing)
 
----
+### Current Work
 
-## 📁 Project Structure
+* VLSI Memory Design (SRAM/DRAM Architecture)
+* PDF Management Desktop Application
 
-```
-portfolio/
-├── src/
-│   ├── app/
-│   │   ├── globals.css         # Global styles, glassmorphism, animations
-│   │   ├── layout.tsx          # Root layout with metadata
-│   │   └── page.tsx            # Main page assembling all sections
-│   ├── components/
-│   │   ├── Navbar.tsx          # Fixed navigation with scroll tracking
-│   │   ├── Footer.tsx          # Footer with social links
-│   │   └── sections/
-│   │       ├── Hero.tsx                 # Landing hero section
-│   │       ├── About.tsx                # About me with profile card
-│   │       ├── Education.tsx            # Education timeline
-│   │       ├── Performance.tsx          # SGPA/CGPA charts (Chart.js)
-│   │       ├── CompetitiveExams.tsx     # GATE, WBJEE, NEET, KVPY
-│   │       ├── CompetitiveProgramming.tsx  # CF, CodeChef, LeetCode
-│   │       ├── SoftwareProjects.tsx     # Software project cards
-│   │       ├── ElectronicsProjects.tsx  # Core ECE projects
-│   │       ├── CurrentWork.tsx          # In-progress projects
-│   │       ├── AITransparency.tsx       # AI usage disclosure
-│   │       ├── GitHubSection.tsx        # Live GitHub repo fetch
-│   │       └── ResumeSection.tsx        # Downloadable resumes
-│   ├── hooks/
-│   │   └── useGitHubRepos.ts   # GitHub API hook
-│   └── lib/
-│       ├── data.ts             # All portfolio data (edit this!)
-│       └── utils.ts            # CGPA calculation utilities
-├── public/
-│   ├── Souparna_Kundu_Software_Resume.pdf       # Add your resume here
-│   └── Souparna_Kundu_Core_Electronics_Resume.pdf
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Pages auto-deploy
-├── next.config.js              # Next.js config (static export)
-├── tailwind.config.ts
-├── tsconfig.json
-└── package.json
-```
+## Academic Achievements
 
----
+* GATE 2026 (EC): AIR 1647, Score 621, Marks 48.67
+* WBJEE 2023: GMR 323, PMR 80
+* KVPY SX: AIR 2860
+* NEET 2023: 570 Marks, AIR 49147
 
-## ✏️ Customization
+## Technical Skills
 
-### Updating Your Data
-All personal data is centralized in **`src/lib/data.ts`**. Edit this file to update:
-- Personal info, social links
-- Education details
-- SGPA values
-- Competitive exam scores
-- Programming ratings
-- Project descriptions
+### Digital Design & VLSI
 
-### Adding Resume PDFs
-Place your PDF files in the `/public` directory:
-```
-public/Souparna_Kundu_Software_Resume.pdf
-public/Souparna_Kundu_Core_Electronics_Resume.pdf
-```
+* Verilog
+* VHDL
+* Vivado
+* Cadence Virtuoso
+* Synopsys EDA Tools
 
----
+### Circuit Simulation
 
-## 🌐 Deployment
+* LTspice
+* Falstad Circuit Simulator
 
-### GitHub Pages (Recommended)
+### Engineering & Signal Processing
 
-1. **Push your code** to a GitHub repository named `portfolio` (or any name).
+* MATLAB
+* LabVIEW
 
-2. **Enable GitHub Pages** in your repo settings:
-   - Go to `Settings → Pages`
-   - Source: `GitHub Actions`
+### Networking
 
-3. **Push to main branch** — the workflow in `.github/workflows/deploy.yml` will automatically build and deploy.
+* NS-2 (Network Simulator 2)
 
-4. **Custom domain** (optional): Add a `CNAME` file in `/public` with your domain.
+### Software Development
 
-> If deploying to `https://souparnoo.github.io/portfolio/` (non-root), update `next.config.js`:
-> ```js
-> basePath: '/portfolio',
-> assetPrefix: '/portfolio/',
-> ```
+* Android Studio
+* Git
+* GitHub
+* VS Code
 
-### Vercel (Alternative)
-```bash
-npm install -g vercel
-vercel --prod
-```
-> Remove `output: 'export'` from `next.config.js` for Vercel.
+## Technology Stack
 
----
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* GitHub Pages
 
-## 🛠️ Tech Stack
+## Live Website
 
-| Technology | Purpose |
-|---|---|
-| Next.js 15 | React framework with static export |
-| TypeScript | Type safety |
-| Tailwind CSS | Utility-first styling |
-| Framer Motion | Animations & transitions |
-| Chart.js + react-chartjs-2 | Academic performance charts |
-| Lucide React | Icon library |
-| GitHub REST API | Live repository fetching |
+Portfolio: [https://souparnoo.github.io/Souparna_Portfolio/](https://souparnoo.github.io/Souparna_Portfolio/#home)
 
----
+## Contact
 
-## 🎨 Design Features
+GitHub: https://github.com/Souparnoo
 
-- **Dark glassmorphism** — layered blur, transparent cards, subtle borders
-- **Framer Motion** scroll-triggered animations throughout
-- **Syne** display font for headings, **DM Sans** for body, **JetBrains Mono** for code
-- Animated gradient borders on key cards
-- Radial glow blobs for atmospheric depth
-- Interactive Chart.js bar and line views for academic performance
-- Mobile-first responsive design
+LinkedIn: [www.linkedin.com/in/souparna-kundu](http://www.linkedin.com/in/souparna-kundu)
 
----
-
-## 📜 License
-
-MIT — free to use and adapt.
+Email: kundusouparna@gmail.com
