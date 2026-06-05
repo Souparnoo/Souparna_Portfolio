@@ -65,8 +65,8 @@ export const COMPETITIVE_EXAMS = [
   {
     exam: 'WBJEE 2023',
     subject: 'West Bengal Joint Entrance',
-    score: 'GMR 323',
-    marks: 'PMR 80',
+    score: 'Qualified',
+    marks: '101.33/200',
     rank: 'GMR 323 | PMR 80',
     color: '#3b82f6',
     icon: '📐',
@@ -74,7 +74,7 @@ export const COMPETITIVE_EXAMS = [
   {
     exam: 'NEET 2023',
     subject: 'National Eligibility cum Entrance Test',
-    score: '570 Marks',
+    score: 'Qualified',
     marks: '570 / 720',
     rank: 'AIR 49147',
     color: '#8b5cf6',
