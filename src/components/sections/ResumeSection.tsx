@@ -64,7 +64,7 @@ export default function ResumeSection() {
 
                 <div className="flex flex-col gap-3">
                   <a
-                    href={`/${resume.filename}`}
+                    href={`/Souparna_Portfolio/${resume.filename}`}
                     download
                     className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-mono text-sm font-medium transition-all duration-200 hover:scale-[1.02]"
                     style={{
@@ -86,7 +86,7 @@ export default function ResumeSection() {
                   </a>
 
                   <a
-                    href={`/${resume.filename}`}
+                    href={`/Souparna_Portfolio/${resume.filename}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-mono text-xs font-medium text-text-muted hover:text-text-secondary transition-all glass border border-white/5"
