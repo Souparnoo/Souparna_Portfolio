@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Souparna Kundu — ETCE Student & Developer',
   description: 'Portfolio of Souparna Kundu — Electronics & Telecommunication Engineering student at Jadavpur University. VLSI, Embedded Systems, Software Development, AI.',
+  icons: {
+    icon: '/favicon.ico',
+  },
   keywords: ['Souparna Kundu', 'ETCE', 'Jadavpur University', 'VLSI', 'Portfolio', 'Electronics', 'Developer'],
   authors: [{ name: 'Souparna Kundu' }],
   openGraph: {
