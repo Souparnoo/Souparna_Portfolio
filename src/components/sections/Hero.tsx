@@ -118,14 +118,7 @@ export default function Hero() {
           >
             <Linkedin size={18} />
           </a>
-          <a
-            href="https://codeforces.com/profile/Souparnoo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2.5 rounded-lg glass border border-white/8 text-text-secondary hover:text-text-primary hover:border-accent-cyan/30 transition-all duration-200 hover:scale-110"
-          >
-            <ExternalLink size={18} />
-          </a>
+          
         </motion.div>
       </div>
 

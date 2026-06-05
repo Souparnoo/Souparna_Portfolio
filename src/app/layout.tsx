@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Souparna Kundu — ECE Student & Developer',
+  title: 'Souparna Kundu — ETCE Student & Developer',
   description: 'Portfolio of Souparna Kundu — Electronics & Telecommunication Engineering student at Jadavpur University. VLSI, Embedded Systems, Software Development, AI.',
-  keywords: ['Souparna Kundu', 'ECE', 'Jadavpur University', 'VLSI', 'Portfolio', 'Electronics', 'Developer'],
+  keywords: ['Souparna Kundu', 'ETCE', 'Jadavpur University', 'VLSI', 'Portfolio', 'Electronics', 'Developer'],
   authors: [{ name: 'Souparna Kundu' }],
   openGraph: {
     title: 'Souparna Kundu — ETCE Student & Developer',
