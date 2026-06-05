@@ -61,7 +61,7 @@ export default function About() {
                     {[
                       { label: 'GATE AIR', value: '1647', color: 'text-accent-cyan' },
                       { label: 'CGPA', value: '8.32', color: 'text-accent-blue' },
-                      { label: 'CF Rating', value: '1268', color: 'text-accent-teal' },
+                      { label: 'WBJEE Rank', value: '323', color: 'text-accent-teal' },
                       { label: 'Semester', value: '5th', color: 'text-accent-purple' },
                     ].map(stat => (
                       <div key={stat.label} className="glass rounded-xl p-3">
