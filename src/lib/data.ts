@@ -254,13 +254,13 @@ export const CURRENT_WORK = [
     icon: '📄',
   },
   {
-    name: 'Expense Manager PWA 2.0',
-    description: 'A privacy-first, offline-capable expense tracker with friend settlement management, budgeting, analytics, Excel export, and local IndexedDB storage.',
+    name: 'Expense Tracker App 2.0',
+    description: 'An Android application for tracking daily expenses, managing shared expenses with friends, monitoring budgets, and maintaining long-term financial records.',
     tag: ['AI Assisted'],
     status: 'In Progress',
-    area: 'Web Development',
+    area: 'Android Development',
     progress: 20,
-    color: '#1565C0',
+    color: '#3DDC84',
     icon: '💰',
   },
 ]
