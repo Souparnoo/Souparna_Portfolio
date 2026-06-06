@@ -122,6 +122,16 @@ export const CP_PROFILES = [
 
 export const SOFTWARE_PROJECTS = [
   {
+    name: 'Expense Manager PWA',
+    description: 'A privacy-first expense and friend-settlement tracker with offline storage, smart balance calculations, Excel exports, and cross-device installability.',
+    tags: ['AI Assisted'],
+    github: 'https://github.com/Souparnoo/ExpenseApp',
+    live: null,
+    tech: ['React', 'PWA', 'TYPESCRIPT'],
+    status: 'completed',
+    category: 'ai_assisted',
+  },
+  {
     name: 'Expense Tracker App',
     description: 'A full-featured expense tracking application with visual analytics, category management, and budget planning tools.',
     tags: ['AI Assisted', 'Full Stack'],
