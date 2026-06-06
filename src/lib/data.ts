@@ -13,7 +13,6 @@ export const ABOUT_POINTS = [
   'Deep interest in VLSI Design, Digital Logic, and Embedded Systems — spanning both theory and hands-on implementation',
   'Active Software Developer with experience building full-stack applications and AI-assisted tools',
   'GATE 2026 Qualified (EC) — AIR 1647 with a score of 621',
-  // 'Competitive Programmer on Codeforces, CodeChef, and LeetCode',
   'Passionate about the intersection of hardware and software — building products that bridge the two worlds',
 ]
 
