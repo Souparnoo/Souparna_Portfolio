@@ -253,6 +253,16 @@ export const CURRENT_WORK = [
     color: '#8b5cf6',
     icon: '📄',
   },
+  {
+    name: 'Expense Manager PWA 2.0',
+    description: 'A privacy-first, offline-capable expense tracker with friend settlement management, budgeting, analytics, Excel export, and local IndexedDB storage.',
+    tag: ['AI Assisted'],
+    status: 'In Progress',
+    area: 'Web Development',
+    progress: 20,
+    color: '#1565C0',
+    icon: '💰',
+  },
 ]
 
 export const TOOLS = [
