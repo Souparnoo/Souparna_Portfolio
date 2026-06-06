@@ -249,7 +249,7 @@ export const CURRENT_WORK = [
     tag: ['AI Assisted'],
     status: 'In Progress',
     area: 'Software Development',
-    progress: 55,
+    progress: 90,
     color: '#8b5cf6',
     icon: '📄',
   },
